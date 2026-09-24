@@ -1,0 +1,11 @@
+# Prompt the user for two numbers
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+# Perform calculations
+sum_result = num1 + num2
+product_result = num1 * num2
+
+# Display results using f-strings
+print(f"The sum of {num1} and {num2} is: {sum_result}")
+print(f"The product of {num1} and {num2} is: {product_result}")
